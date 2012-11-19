@@ -1,0 +1,29 @@
+
+COCOAPODS: 0.15.2
+
+DEPENDENCIES: 
+- BlocksKit
+- LRResty
+- MBProgressHUD (defined in Podfile)
+- RGProgressHUD (from `https://github.com/OdNairy/MBProgressHUD.git')
+
+PODS: 
+- BlocksKit (1.8.0): 
+  - libffi
+- LRResty (0.11.0): 
+  - NSData+Base64 (~> 1.0)
+- MBProgressHUD (0.5)
+- NSData+Base64 (1.0.0)
+- RGProgressHUD (0.5)
+- libffi (3.0.11)
+
+SPEC CHECKSUMS: 
+  LRResty: 8a51275030ac5bfc6c44775d64a16dc0f9267b8e
+  BlocksKit: 4b6039288115dda2240526e6d1e45bfe28003ef1
+  libffi: 8a1d9ba43c0c84b546b42c6f742714e73aa07ae1
+  NSData+Base64: 8b910cb8a64f45daec6fb15936c36a9a911c57ca
+  RGProgressHUD: 518828c37caa031fbe60971655185166f9c06b21
+
+EXTERNAL SOURCES: 
+  RGProgressHUD: 
+    :git: https://github.com/OdNairy/MBProgressHUD.git
